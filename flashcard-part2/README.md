@@ -1,4 +1,4 @@
-# WEB102 Unit 3 - *Korean Food Flashcard*
+# WEB102 Unit 3 - *Korean Food Flashcard - Part2*
 
 Submitted by: **Chunyun Zhang**
 
@@ -28,7 +28,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src= width="600">
+<img src="https://github.com/CloudyZ524/CodePath-Web102/assets/124476559/e8797e06-d5cc-46cc-a738-5f22d759df94" width="500">
 
 GIF created with Adobe Express
 
