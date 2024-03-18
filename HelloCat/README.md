@@ -1,4 +1,4 @@
-# WEB102 Unit 3 - *Hello Cats 🐈*
+# WEB102 Unit 4 - *Hello Cats* 🐈
 
 Submitted by: **Chunyun Zhang**
 
@@ -26,7 +26,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src= width="600">
+<img src=https://github.com/CloudyZ524/CodePath-Web102/assets/124476559/e25b1929-5b4e-4ac8-a7d8-7af34738d3fe width="600">
 
 GIF created with Adobe Express
 
