@@ -1,0 +1,67 @@
+body {
+  box-sizing: border-box;
+  background-image: url('https://images.pexels.com/photos/207529/pexels-photo-207529.jpeg?cs=srgb&dl=pexels-pixabay-207529.jpg&fm=jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.3); /* Transparent white */
+}
+
+.main-content {
+  flex-grow: 1; 
+  max-width: 960px;
+  width: 100%;
+  padding: 1rem;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: center;
+  justify-content: center;
+}
+
+.card1, .card2, .card3 {
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 1rem; 
+  padding: 10px;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.input {
+  height: 35px;
+  margin: 10px;
+}
+
+.buttonSize {
+  justify-content: center;
+  display: flex;
+}
+
+.button {
+  height: 50px;
+}
