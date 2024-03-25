@@ -30,7 +30,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src= width="600">
+<img src=https://github.com/CloudyZ524/CodePath-Web102/assets/124476559/fa97e560-e61a-4e28-866b-84d5dc9788d1 width="600">
 
 GIF created with Adobe Express
 
