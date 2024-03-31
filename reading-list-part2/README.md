@@ -1,4 +1,4 @@
-# WEB102 Unit 5 - *Reading List 📖*
+# WEB102 Unit 6 - *Reading List 📖*
 
 Submitted by: **Chunyun Zhang**
 
@@ -25,7 +25,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src= width="600">
+<img src=https://github.com/CloudyZ524/CodePath-Web102/assets/124476559/ab7c19f2-8bf7-48db-b748-32efb757075b width="600">
 
 GIF created with Adobe Express
 
