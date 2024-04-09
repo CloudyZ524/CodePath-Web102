@@ -1,0 +1,45 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1; 
+  width: 100%;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.crewCard {
+  background-color: #e9f4fb; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  margin: 16px; 
+  padding: 20px; 
+  max-width: 300px; 
+  text-align: center; 
+  transition: transform 0.2s; 
+  color: rgb(33, 163, 250);
+}
+
+.crewCard:hover {
+  transform: translateY(-5px); 
+}
