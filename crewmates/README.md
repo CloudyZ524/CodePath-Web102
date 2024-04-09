@@ -28,7 +28,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src= width="600">
+<img src=https://github.com/CloudyZ524/CodePath-Web102/assets/124476559/ead31f19-8b7e-428b-8add-de5495855701 width="600">
 
 GIF created with Adobe Express
 
