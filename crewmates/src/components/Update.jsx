@@ -7,7 +7,7 @@ function Update({crewmates}) {
 
     return (
         <div>
-            <h1>Crewmate {crew.name} has been deleted! 🚀</h1>
+            <h1>Crewmate {crew.name} has been updated! 🚀</h1>
         </div>
     );
 }
