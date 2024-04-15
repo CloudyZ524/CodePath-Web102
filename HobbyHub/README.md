@@ -39,9 +39,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src= width="600">
-
-GIF created with Adobe Express
+https://github.com/CloudyZ524/CodePath-Web102/assets/124476559/9e0d614c-941f-418a-a2ea-45d883024d93
 
 ## License
 
