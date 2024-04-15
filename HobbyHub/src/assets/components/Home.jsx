@@ -1,21 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
-function Home({ postList }) {
+function Home({ postList, timeSince }) {
+    const navigate = useNavigate();
 
-    function timeSince(date) {
-        const postDate = new Date(date);
-        const seconds = Math.floor((new Date() - postDate) / 1000);
-      
-        let interval = seconds / 3600;
-      
-        if (interval > 1) {
-          return Math.floor(interval) + " hours ago";
-        }
-        interval = seconds / 60;
-        if (interval > 1) {
-          return Math.floor(interval) + " minutes ago";
-        }
-        return Math.floor(seconds) + " seconds ago";
+    const handlePostDetail = (id) => {
+        navigate(`/post/${id}`);
     }
     
     return (
@@ -26,7 +16,7 @@ function Home({ postList }) {
                 <button className='button popular-button'>Most Popular</button>
             </div>
             {postList.map(post => (
-                <div className='post-display' key={post.id}>
+                <div className='post-display' key={post.id} onClick={() => handlePostDetail(post.id)}>
                     <p>Posted at {timeSince(post.created_time)}</p>
                     <h5>{post.title}</h5>
                     <p>{post.upvote} upvotes</p>

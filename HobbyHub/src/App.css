@@ -120,9 +120,14 @@ body, html {
   border-radius: 8px;
 }
 
+.post-box h3 {
+  color: #333;
+}
+
 .title-box,
 .content-box,
 .url-box {
+  color: #333;
   background-color: white;
   width: 90%;
   margin-bottom: 20px; 
