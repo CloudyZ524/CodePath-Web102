@@ -9,7 +9,6 @@ function DetailPost({deletePost, postList, timeSince, updateUpvote}) {
     const [newComment, setNewComment] = useState('');
 
     useEffect(() => {
-        console.log(postList)
         const foundPost = postList.find((c) => c.id.toString() === id);
         setPost(foundPost);
     }, [id, postList]);
@@ -37,17 +36,19 @@ function DetailPost({deletePost, postList, timeSince, updateUpvote}) {
     return (
         post ? (
             <div>
-                <div className='post-display'>
+                <div className='post-detail'>
                     <p>Posted at {timeSince(post.created_time)}</p>
-                    <h5>{post.title}</h5>
+                    <h3>{post.title}</h3>
                     <p>{post.content}</p>
-                    <p>{post.image}</p>
-                    <p onClick={handleUpvote}>👍 </p><p>{post.upvote} upvotes</p>
+                    <img src={post.image} style={{height: '200px'}} alt="Invalid URL"/>
+                    <p className="upvote-section" onClick={handleUpvote}>
+                        👍 <span>{post.upvote} upvotes</span>
+                    </p>
                     <button onClick={handleUpdate}>✏️ Update</button>
                     <button onClick={handleDelete}>✖️ Delete</button>
-                    <div className='comments'>
-                        {post.comments.map((comment, i) => (<div key={i}><p> - {comment}</p><br/></div>))}
-                        <input value={newComment} onChange={(e) => setNewComment(e.target.value)} 
+                    <div className='comments-display'>
+                        {post.comments.map((comment, i) => (<div key={i}><p> - {comment}</p></div>))}
+                        <input className='inputComment' value={newComment} onChange={(e) => setNewComment(e.target.value)} 
                         onKeyDown={(e) => {
                             if (e.key === 'Enter') {
                                 handleNewComment();

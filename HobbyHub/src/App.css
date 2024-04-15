@@ -148,3 +148,32 @@ body, html {
 .url-box {
   height: 40px; 
 }
+
+.post-detail {
+  margin-top: 100px;
+  background-color: #fff; 
+  padding: 20px;
+  margin-bottom: 20px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+  border-radius: 10px; 
+  width: 550px; 
+}
+
+.post-detail button {
+  margin: 10px; 
+}
+
+.comments-display {
+  background-color: #61dafb26;
+  padding: 10px; 
+  border-radius: 5px; 
+  margin-bottom: 10px; 
+}
+
+.inputComment {
+  width: calc(100% - 20px); 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  box-sizing: border-box; 
+}
